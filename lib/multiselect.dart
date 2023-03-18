@@ -50,6 +50,7 @@ class _SelectRow extends StatelessWidget {
                 }),
             Expanded(
               child: Text(text),
+            ),
           ],
         ),
       ),
