@@ -48,7 +48,8 @@ class _SelectRow extends StatelessWidget {
                   onChange(x!);
                   _theState.notify();
                 }),
-            Text(text)
+            Expanded(
+              child: Text(text),
           ],
         ),
       ),
